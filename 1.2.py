@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.linear_model import LinearRegression
 
-df = pd.read_csv('C:\\Users\\sarth\\drive\\files\\Position_Salaries.csv')  # Replace with your file path
+df = pd.read_csv('\files\\Position_Salaries.csv')  # Replace with your file path
 print(df.head())
 
 
