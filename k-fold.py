@@ -3,6 +3,7 @@ from sklearn.model_selection import cross_val_score
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.datasets import load_iris
 
+df = pd.read_csv('\files\\Iris.csv')
 iris = load_iris()
 
 X = iris.data  
