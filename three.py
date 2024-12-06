@@ -4,8 +4,8 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn import datasets
 
 iris = datasets.load_iris()
-X = iris.data  # Features
-y = iris.target  # Target
+X = iris.data  
+y = iris.target  
 
 clf = DecisionTreeClassifier(random_state=42)
 cv_scores = cross_val_score(clf, X, y, cv=5)
